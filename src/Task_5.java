@@ -3,7 +3,7 @@ import java.util.Scanner;
 public class Task_5 {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
-        System.out.println ("Введите число:");
+        System.out.println ("Введите  число:");
         int Task_4Input  = sc.nextInt();
         System.out.println ("1" + "*" + Task_4Input + "=" + (1 * Task_4Input) );
         System.out.println ("2" + "*" + Task_4Input + "=" + (2 * Task_4Input) );
