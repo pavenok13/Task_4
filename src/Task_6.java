@@ -1,6 +1,6 @@
 import java.util.Scanner;
 public class Task_6 {
-    void srednee(int a, int b, int c) {
+    public static void srednee(int a, int b, int c) {
         int srednee = (a + b + c) / 3;
         System.out.println("Среднее арифметическое = " + srednee);
         if (srednee / 2 > 3) {
