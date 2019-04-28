@@ -3,7 +3,7 @@ public class Task_6 {
     public static void srednee(int a, int b, int c) {
         int srednee = (a + b + c) / 3;
         System.out.println("Среднее арифметическое = " + srednee);
-        if (srednee / 2 > 3) {
+        if (srednee / 2 >  3) {
             System.out.println("Программа выполнена корректно ");
         }
     }
