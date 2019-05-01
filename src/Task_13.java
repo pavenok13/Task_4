@@ -5,9 +5,8 @@ public class Task_13 {
         Scanner sc = new Scanner(System.in);
         System.out.println("Введите первую строку;");
         String sc1 = sc.nextLine();
-        Scanner sca = new Scanner(System.in);
         System.out.println("Введитке вторую строку;");
-        String sc2 = sca.nextLine();
+        String sc2 = sc.nextLine();
         int length1 = sc1.length();
         int length2 = sc2.length();
         if (length1 > length2) {
