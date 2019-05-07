@@ -1,6 +1,6 @@
 import java.util.Arrays;
 
-public class Task_15 {
+public class Task_15  {
     public static void main (String[] args) {
         int [] sandArray = {3, 45, 23,56,21,1,5};
         stap(sandArray);
