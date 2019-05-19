@@ -11,6 +11,10 @@ public class Task_18 {
         } catch ( IOException exc) {
             System.out.println ( " Ошибка ввода-вывода: "  + exc); }
         BufferedReader br =  new  BufferedReader ( new InputStreamReader( System.in ));
+        if (count==0){
+            System.out.println ( "Файл пуст, вводить ничего не надо ");
+        }
+        else {
         try ( FileWriter fw =  new  FileWriter ("C:\\Users\\Андрей\\Desktop\\text.txt")) {
             do {
                 System.out.print ( " Введите текст: " );
@@ -21,4 +25,4 @@ public class Task_18 {
             } while (count !=  0 );
         } catch ( IOException exc) {
             System.out.println ( " Ошибка ввода-вывода: "  + exc); }
-        System.out.println ( " Файл записан " ); }}
+        System.out.println ( " Файл записан " ); }}}
