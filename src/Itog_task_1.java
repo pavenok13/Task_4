@@ -5,7 +5,7 @@ public class Itog_task_1 {
 
     public static void main(String[] args) {
         Scanner scan = new Scanner(System.in);
-        System.out.print("Введите бинарное число:");
+        System.out.print("Введите двоичное число:");
         int Itog_task_1_Input  = scan.nextInt();
         System.out.println("Соответствует десятичному числу:" + Itog_task_1(Itog_task_1_Input, 0));
     }
